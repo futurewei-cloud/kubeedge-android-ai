@@ -94,7 +94,6 @@ public class MainActivity extends AppCompatActivity {
 
             Size sz = new Size(FrameRequest.MODEL_INPUT_WIDTH, FrameRequest.MODEL_INPUT_HEIGHT);
             Imgproc.resize(img, img, sz);
-            //Imgproc.cvtColor(img, img, Imgproc.COLOR_BGR2GRAY);
 
             callEdgeAPI(img);
 
